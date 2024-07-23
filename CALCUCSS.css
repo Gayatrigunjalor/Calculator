@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     
+    
+    }
+    
+    
+    /* .container{ */
+        
+        /* width: 100%;
+        height: 100vh;
+        background-color: white;
+         */
+    
+    
+    
+        .calculator{
+            background-color: rgb(141, 166, 166);
+            border: 3px solid  hsla(0, 89%, 4%, 0.788);
+            width: 400px;
+            height: 90vh;
+            padding: 10px;
+            position: relative;
+            top: 60px;
+            left:500px ;
+            padding: 20px;
+            border-radius: 25px;
+            box-shadow: 9px 9px hsla(0,1% ,74%,0.788);
+            
+            }
+            
+            .reesult{
+            display: flex;
+            justify-content: center;
+            transition: 0.2s;    
+        
+            }
+            
+            .row{
+            
+            padding: 10px;
+            gap: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            button{
+            padding: 20px;
+            margin: 5px;  
+            gap: 5 px;
+            font-size: 30px;
+            margin-bottom: 10px;
+            border: none;
+            border-bottom: 3px solid rgb(111, 241, 185);
+            border-right: 3px solid rgb(92, 148, 158);
+            background-color: rgb(238, 245, 226);
+            font-size: 15px;
+            font-weight: 600;   
+            border-radius: 10px;
+            transition: 1s;
+            box-shadow: 6px 6px 1.2px hsla(0, 1%, 74%, 0.788);  
+
+            
+            }
+            input[type="text"]{
+                width: 250px;
+                height: 80px;
+                font-size: 30px;
+                font-weight: 600px;
+                border: 3px solid rgb(16, 36, 21);
+                border-radius: 15px;
+                color:rgb(20, 20,20);
+                margin-left:6px ;
+                margin-right: 3px;
+                margin-top: -7px;
+                box-shadow: -2px -2px 4px 2px hwb(0 70% 5% / 0.788); 
+
+            }
+            button:hover{
+                background-color: rgb(50, 223, 186);
+                font-size: 20px;
+                 border: none;
+
+            }
+            ::placeholder{
+                color: rgb(26, 4, 9);
+                cursor: pointer;
+            }
+
+
+
+
+
+
+        
+            
+    
+        
+            
+            
+            
